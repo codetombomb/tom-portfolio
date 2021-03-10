@@ -1,0 +1,10 @@
+body {
+  border-left: 4vh solid #c4ff00;
+  border-right: 4vh solid #c4ff00;
+  border-bottom: 4vh solid #c4ff00;
+  margin: 0px;
+  padding: 0px; }
+  body .main-content-wrapper {
+    height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */
