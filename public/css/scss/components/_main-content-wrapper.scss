@@ -1,10 +1,8 @@
 @import '../abstracts/colors';
 
-$frame-width: 4vh;
-$main-frame-style: $frame-width solid $vale-yellow;
+$frame-width: 6vh;
+$main-frame-style: $frame-width solid white;
 
 @mixin frame {
-    border-left: $main-frame-style;
-    border-right: $main-frame-style;
-    border-bottom: $main-frame-style;
+    border: $main-frame-style;
 }
