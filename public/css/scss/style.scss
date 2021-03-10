@@ -1,31 +1,62 @@
 @import 'abstracts/fonts';
 @import 'abstracts/colors';
 @import 'components/main-content-wrapper';
+@import 'mixins/align_center.scss';
 
-body{
-    @include frame;
+body {
     margin: 0px;
     padding: 0px;
 
-    header{
-        
+    header {
+        height: $frame-width;
+        position: fixed;
+        top: 0px;
+        width: 100vw;
+
+
+        .logo-wrapper {
+            width: 2.5em;
+            height: 100%;
+            margin-left: 3em;
+
+            .logo {
+                height: 100%;
+                cursor: pointer;
+            }
+        }
+
     }
 
     .main-content-wrapper {
-        height: 100vh;
-        
-
+        @include frame;
+        height: 88vh;
 
         .main-content {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(90deg, $deep-blue 50%, $pale-grey 50%);
 
+            #hello-page {
+                @include center-center;
+                height: 100%;
 
-            #hello-page{
+                .hello-wrapper {
 
+                    .hello {
+                        font-family: $futura-bold;
+                        text-transform: uppercase;
+                        margin: 0px;
+                        color: $vale-yellow;
+                        font-size: 10rem;
+                        line-height: 1em;
 
-                .hello{
-
+                        .hello-bang {
+                            color: $deep-blue;
+                        }
+                    }
                 }
+
             }
         }
     }
-} 
+}
