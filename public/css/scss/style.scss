@@ -1,0 +1,31 @@
+@import 'abstracts/fonts';
+@import 'abstracts/colors';
+@import 'components/main-content-wrapper';
+
+body{
+    @include frame;
+    margin: 0px;
+    padding: 0px;
+
+    header{
+        
+    }
+
+    .main-content-wrapper {
+        height: 100vh;
+        
+
+
+        .main-content {
+
+
+            #hello-page{
+
+
+                .hello{
+
+                }
+            }
+        }
+    }
+} 
