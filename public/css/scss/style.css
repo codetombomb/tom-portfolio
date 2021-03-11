@@ -1,12 +1,12 @@
 @font-face {
   font-family: Futura;
-  src: url("fonts/futura-medium/Futura Std Medium.ttf"); }
+  src: url("../fonts/futura-medium/Futura Medium.ttf"); }
 @font-face {
   font-family: Futura-bold;
-  src: url("fonts/futura-medium/Futura URW Medium.ttf"); }
+  src: url("../fonts/futura-medium/FuturaURWMedium.ttf"); }
 @font-face {
   font-family: Avenir;
-  src: url("fonts/avenir_ff/AvenirLTStd-Book.otf"); }
+  src: url("../fonts/avenir_ff/AvenirLTStd-Book.otf"); }
 body {
   margin: 0px;
   padding: 0px; }
@@ -36,6 +36,7 @@ body {
         height: 100%; }
         body .main-content-wrapper .main-content #hello-page .hello-wrapper .hello {
           font-family: Futura-bold, sans-serif;
+          font-weight: bolder;
           text-transform: uppercase;
           margin: 0px;
           color: #c4ff00;
