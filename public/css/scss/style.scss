@@ -3,60 +3,113 @@
 @import 'components/main-content-wrapper';
 @import 'mixins/align_center.scss';
 
+
 body {
     margin: 0px;
     padding: 0px;
+    font-family: $avenir;
 
     header {
         height: $frame-width;
-        position: fixed;
-        top: 0px;
-        width: 100vw;
 
-
-        .logo-wrapper {
-            width: 2.5em;
+        nav {
             height: 100%;
-            margin-left: 3em;
 
-            .logo {
-                height: 100%;
-                cursor: pointer;
-            }
-        }
+            .nav-links {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 0px;
+                margin: 0px;
 
-    }
+                li {
+                    list-style: none;
+                    height: 100%;
 
-    .main-content-wrapper {
-        @include frame;
-        height: 88vh;
+                    a {
+                        text-decoration: none;
 
-        .main-content {
-            height: 100%;
-            width: 100%;
-            background: linear-gradient(90deg, $deep-blue 50%, $pale-grey 50%);
-
-            #hello-page {
-                @include center-center;
-                height: 100%;
-
-                .hello-wrapper {
-
-                    .hello {
-                        font-family: $futura-bold;
-                        font-weight: bolder;
-                        text-transform: uppercase;
-                        margin: 0px;
-                        color: $vale-yellow;
-                        font-size: 10rem;
-                        line-height: 1em;
-
-                        .hello-bang {
-                            color: $deep-blue;
+                        .logo {
+                            height: 5vh;
+                            padding-top: .6vh;
                         }
                     }
                 }
             }
         }
     }
+
+    .main-content {
+        @include frame;
+        border-top: 0px;
+        height: 88vh;
+        background: linear-gradient(90deg, $deep-blue 50%, $pale-grey 50%);
+
+        #hello-page {
+            @include center-center;
+            height: 100%;
+
+
+            .hello-wrapper {
+                .hello {
+                    font-family: $futura-bold;
+                    font-weight: bolder;
+                    text-transform: uppercase;
+                    margin: 0px;
+                    color: $vale-yellow;
+                    font-size: 10rem;
+                    line-height: 1em;
+
+                    .hello-bang {
+                        color: $deep-blue;
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .main-content-wrapper {
+//     @include frame;
+//     height: 88vh;
+
+//     .main-content {
+//         height: 100%;
+//         width: 100%;
+//         background: linear-gradient(90deg, $deep-blue 50%, $pale-grey 50%);
+
+//         #hello-page {
+//             @include center-center;
+//             height: 100%;
+
+//             .hello-wrapper {
+
+//                 .hello {
+//                     font-family: $futura-bold;
+//                     font-weight: bolder;
+//                     text-transform: uppercase;
+//                     margin: 0px;
+//                     color: $vale-yellow;
+//                     font-size: 10rem;
+//                     line-height: 1em;
+
+//                     .hello-bang {
+//                         color: $deep-blue;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
