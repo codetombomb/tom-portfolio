@@ -9,40 +9,45 @@
   src: url("../fonts/avenir_ff/AvenirLTStd-Book.otf"); }
 body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-family: Avenir, sans-serif; }
   body header {
-    height: 6vh;
-    position: fixed;
-    top: 0px;
-    width: 100vw; }
-    body header .logo-wrapper {
-      width: 2.5em;
-      height: 100%;
-      margin-left: 3em; }
-      body header .logo-wrapper .logo {
-        height: 100%;
-        cursor: pointer; }
-  body .main-content-wrapper {
-    border: 6vh solid white;
-    height: 88vh; }
-    body .main-content-wrapper .main-content {
-      height: 100%;
-      width: 100%;
-      background: linear-gradient(90deg, #0D0926 50%, #C6C7CC 50%); }
-      body .main-content-wrapper .main-content #hello-page {
+    height: 6vh; }
+    body header nav {
+      height: 100%; }
+      body header nav .nav-links {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        height: 100%; }
-        body .main-content-wrapper .main-content #hello-page .hello-wrapper .hello {
-          font-family: Futura-bold, sans-serif;
-          font-weight: bolder;
-          text-transform: uppercase;
-          margin: 0px;
-          color: #c4ff00;
-          font-size: 10rem;
-          line-height: 1em; }
-          body .main-content-wrapper .main-content #hello-page .hello-wrapper .hello .hello-bang {
-            color: #0D0926; }
+        padding: 0px;
+        margin: 0px; }
+        body header nav .nav-links li {
+          list-style: none;
+          height: 100%; }
+          body header nav .nav-links li a {
+            text-decoration: none; }
+            body header nav .nav-links li a .logo {
+              height: 5vh;
+              padding-top: .6vh; }
+  body .main-content {
+    border: 6vh solid white;
+    border-top: 0px;
+    height: 88vh;
+    background: linear-gradient(90deg, #0D0926 50%, #C6C7CC 50%); }
+    body .main-content #hello-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+      body .main-content #hello-page .hello-wrapper .hello {
+        font-family: Futura-bold, sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin: 0px;
+        color: #c4ff00;
+        font-size: 10rem;
+        line-height: 1em; }
+        body .main-content #hello-page .hello-wrapper .hello .hello-bang {
+          color: #0D0926; }
 
 /*# sourceMappingURL=style.css.map */
