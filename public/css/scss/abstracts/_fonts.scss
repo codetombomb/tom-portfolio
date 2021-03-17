@@ -13,8 +13,18 @@
     src: url('../fonts/avenir_ff/AvenirLTStd-Book.otf');
 }
 
+@font-face {
+    font-family: Avenir-bold;
+    src: url('../fonts/avenir_ff/AvenirLTStd-Black.otf');
+}
 
+//Font size
 $font-size: 4rem;
+
+//Futura
 $futura: Futura, sans-serif;
 $futura-bold: Futura-bold, sans-serif;
+
+//Avenir
 $avenir: Avenir, sans-serif;
+$avenir-bold: Avenir-bold, san-serrif;

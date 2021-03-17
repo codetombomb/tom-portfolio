@@ -1,6 +1,12 @@
 console.log("running helloAnimation script");
-const hello = document.getElementById("hello-page")
 
-hello.addEventListener(onclick, function(){
-    console.log("clicking")
+//Activate Scroll Trigger
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".hello", {
+    scrolltrigger: ".hello",
+    x: 400,
+    rotation: 360,
+    duration: 3
 })
+
