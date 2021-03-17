@@ -3,7 +3,7 @@ console.log("running helloAnimation script");
 const helloPageTL = gsap.timeline();
 helloPageTL.from('.slide', {
     duration: 2,
-    xPercent: -100
+    xPercent: -50
 })
 
 

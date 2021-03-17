@@ -52,11 +52,11 @@ body {
             background: $pale-grey;
 
             .slide{
-                position: relative;
-                left: -10.5vw;
                 height: 100%;
                 background-color: $deep-blue;
                 width: 50%;
+                position: relative;
+                right: 10vw;
             }
 
             .hello-wrapper {
