@@ -7,6 +7,9 @@
 @font-face {
   font-family: Avenir;
   src: url("../fonts/avenir_ff/AvenirLTStd-Book.otf"); }
+@font-face {
+  font-family: Avenir-bold;
+  src: url("../fonts/avenir_ff/AvenirLTStd-Black.otf"); }
 body {
   margin: 0px;
   padding: 0px;
@@ -49,5 +52,29 @@ body {
         line-height: 1em; }
         body .main-content #hello-page .hello-wrapper .hello .hello-bang {
           color: #0D0926; }
+    body .main-content #about-page {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0D0926;
+      position: relative; }
+      body .main-content #about-page .about-desc-wrapper {
+        min-width: 10vw;
+        max-width: 20vw; }
+        body .main-content #about-page .about-desc-wrapper .my-name-is {
+          font-family: Avenir-bold, san-serrif;
+          color: white; }
+        body .main-content #about-page .about-desc-wrapper .about-desc {
+          font-family: Avenir-bold, san-serrif;
+          color: #c4ff00; }
+      body .main-content #about-page .tom-img-wrapper {
+        width: 40%; }
+        body .main-content #about-page .tom-img-wrapper img {
+          position: absolute;
+          width: 30%;
+          transform: rotateY(180deg);
+          right: 6vw;
+          bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */
