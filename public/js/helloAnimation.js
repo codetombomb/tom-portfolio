@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to(".hello", {
     scrolltrigger: ".hello",
     x: 400,
-    rotation: 360,
+    rotation: 720,
     duration: 3
 })
 
