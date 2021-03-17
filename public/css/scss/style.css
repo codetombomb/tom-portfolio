@@ -36,12 +36,19 @@ body {
     border: 6vh solid white;
     border-top: 0px;
     height: 88vh;
-    background: linear-gradient(90deg, #0D0926 50%, #C6C7CC 50%); }
+    overflow: hidden; }
     body .main-content #hello-page {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%; }
+      height: 100%;
+      background: #C6C7CC; }
+      body .main-content #hello-page .slide {
+        position: relative;
+        left: -10.5vw;
+        height: 100%;
+        background-color: #0D0926;
+        width: 50%; }
       body .main-content #hello-page .hello-wrapper .hello {
         font-family: Futura-bold, sans-serif;
         font-weight: bolder;
@@ -49,7 +56,9 @@ body {
         margin: 0px;
         color: #c4ff00;
         font-size: 10rem;
-        line-height: 1em; }
+        line-height: 1em;
+        position: relative;
+        right: 23vw; }
         body .main-content #hello-page .hello-wrapper .hello .hello-bang {
           color: #0D0926; }
     body .main-content #about-page {
