@@ -39,27 +39,30 @@ body {
         }
     }
 
-    .main-content {
-        @include frame;
-        border-top: 0px;
-        height: 88vh;
-        overflow: hidden;
-        
-        #hello-page {
-            @include center-center;
+    #main-content {
+        height: 94vh;
+        width: 100vw;
+        background-color: $pale-grey;
+
+        .half-slide {
+            width: 50%;
             height: 100%;
-            // background: linear-gradient(90deg, $deep-blue 50%, $pale-grey 50%);
-            background: $pale-grey;
+            background-color: $deep-blue;
+        }
 
-            .slide{
-                height: 100%;
-                background-color: $deep-blue;
-                width: 50%;
-                position: relative;
-                right: 10vw;
-            }
+        .main-container {
+            @include center-center;
+            background-color: rgba(255, 255, 255, 0);
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 6vh;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
 
-            .hello-wrapper {
+            .hello-container {
                 .hello {
                     font-family: $futura-bold;
                     font-weight: bolder;
@@ -68,8 +71,6 @@ body {
                     color: $vale-yellow;
                     font-size: 10rem;
                     line-height: 1em;
-                    position: relative;
-                    right: 23vw;
 
                     .hello-bang {
                         color: $deep-blue;
@@ -77,41 +78,42 @@ body {
                 }
             }
         }
-
-        #about-page {
-            @include full-screen;
-            @include center-center;
-            background-color: $deep-blue;
-            position: relative;
-
-
-            .about-desc-wrapper {
-                min-width: 10vw;
-                max-width: 20vw;
-
-
-                .my-name-is {
-                    font-family: $avenir-bold;
-                    color: white;
-                }
-
-                .about-desc {
-                    font-family: $avenir-bold;
-                    color: $vale-yellow;
-                }
-            }
-
-            .tom-img-wrapper {
-                width: 40%;
-                
-                img {
-                    position: absolute;
-                    width: 30%;
-                    transform: rotateY(180deg);
-                    right: 6vw;
-                    bottom: 0px;
-                }
-            }
-        }
     }
 }
+
+//     #about-page {
+//         @include full-screen;
+//         @include center-center;
+//         background-color: $deep-blue;
+//         position: relative;
+
+
+//         .about-desc-wrapper {
+//             min-width: 10vw;
+//             max-width: 20vw;
+
+
+//             .my-name-is {
+//                 font-family: $avenir-bold;
+//                 color: white;
+//             }
+
+//             .about-desc {
+//                 font-family: $avenir-bold;
+//                 color: $vale-yellow;
+//             }
+//         }
+
+//         .tom-img-wrapper {
+//             width: 40%;
+
+//             img {
+//                 position: absolute;
+//                 width: 30%;
+//                 transform: rotateY(180deg);
+//                 right: 6vw;
+//                 bottom: 0px;
+//             }
+//         }
+//     }
+// }
