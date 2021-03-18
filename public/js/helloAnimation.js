@@ -12,6 +12,13 @@ helloPageTL.from('.half-slide', {
     rotation: 360,
     ease: 'back'
 })
+.from(".scroll-indicator",{
+    delay: 1,
+    duration: .8,
+    opacity: 0,
+})
+
+
 
 //Activate Scroll Trigger
 gsap.registerPlugin(ScrollTrigger);

@@ -44,6 +44,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       background-color: rgba(255, 255, 255, 0);
       position: fixed;
       height: 100%;
@@ -63,5 +64,13 @@ body {
         line-height: 1em; }
         body #main-content .main-container .hello-container .hello .hello-bang {
           color: #0D0926; }
+      body #main-content .main-container .scroll-indicator {
+        height: 7vh;
+        width: 7vh;
+        border-bottom: 3px solid #C6C7CC;
+        border-right: 3px solid #0D0926;
+        transform: rotate(45deg);
+        position: relative;
+        top: 5vh; }
 
 /*# sourceMappingURL=style.css.map */
