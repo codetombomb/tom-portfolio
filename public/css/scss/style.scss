@@ -52,6 +52,7 @@ body {
 
         .main-container {
             @include center-center;
+            flex-direction: column;
             background-color: rgba(255, 255, 255, 0);
             position: fixed;
             height: 100%;
@@ -76,6 +77,15 @@ body {
                         color: $deep-blue;
                     }
                 }
+            }
+            .scroll-indicator{
+                height: 7vh;
+                width: 7vh;
+                border-bottom: 3px solid $pale-grey;
+                border-right: 3px solid $deep-blue;
+                transform: rotate(45deg);
+                position: relative;
+                top: 5vh;
             }
         }
     }
