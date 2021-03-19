@@ -42,12 +42,12 @@ body {
     #main-content {
         height: 94vh;
         width: 100vw;
-        background-color: $pale-grey;
+        background-color: $lighter-color;
 
         .half-slide {
             width: 50%;
             height: 100%;
-            background-color: $deep-blue;
+            background-color: $darker-color;
         }
 
         .main-container {
@@ -70,19 +70,19 @@ body {
                     text-transform: uppercase;
                     margin: 0px;
                     color: $vale-yellow;
-                    font-size: 10rem;
+                    font-size: 11rem;
                     line-height: 1em;
 
                     .hello-bang {
-                        color: $deep-blue;
+                        color: $darker-color;
                     }
                 }
             }
             .scroll-indicator{
                 height: 7vh;
                 width: 7vh;
-                border-bottom: 3px solid $pale-grey;
-                border-right: 3px solid $deep-blue;
+                border-bottom: 3px solid $lighter-color;
+                border-right: 3px solid $darker-color;
                 transform: rotate(45deg);
                 position: relative;
                 top: 5vh;
@@ -94,7 +94,7 @@ body {
 //     #about-page {
 //         @include full-screen;
 //         @include center-center;
-//         background-color: $deep-blue;
+//         background-color: $darker-color;
 //         position: relative;
 
 
