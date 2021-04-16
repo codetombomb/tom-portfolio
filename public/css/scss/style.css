@@ -10,6 +10,9 @@
 @font-face {
   font-family: Avenir-bold;
   src: url("../fonts/avenir_ff/AvenirLTStd-Black.otf"); }
+* {
+  border: 1px solid red; }
+
 body {
   margin: 0px;
   padding: 0px;
@@ -61,7 +64,8 @@ body {
         margin: 0px;
         color: #c4ff00;
         font-size: 11rem;
-        line-height: 1em; }
+        line-height: 1em;
+        overflow: hidden; }
         body #main-content .main-container .hello-container .hello .hello-bang {
           color: #151516; }
       body #main-content .main-container .scroll-indicator {
@@ -73,6 +77,9 @@ body {
         position: relative;
         top: 5vh; }
     body #main-content .about-page {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
