@@ -9,3 +9,16 @@ gsap.to(".hello-container", {
     rotation: 360,
     duration: 1
 })
+
+gsap.to(".scroll-indicator",{
+    scrollTrigger: {
+        trigger: ".scroll-indicator",
+        toggleActions: "play none resume reset",
+        start: "top 80%",
+        end: "bottom center",
+        scrub: .5,
+        markers: true
+    },
+    yPercent: 150
+
+})
