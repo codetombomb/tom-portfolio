@@ -3,7 +3,7 @@ gsap.to(".hello-container", {
         trigger: ".hello-container",
         toggleActions: "play none resume reset",
         start: "center 30%", //Start marker on the hello-container is at the center. Start marker on the VP is 30% from the top. 
-        scrub: true,
+        scrub: 1.5,
     },
     x: -1100,
     rotation: 360,
