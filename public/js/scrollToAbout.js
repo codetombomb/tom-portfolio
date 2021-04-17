@@ -14,11 +14,11 @@ gsap.to(".scroll-indicator",{
     scrollTrigger: {
         trigger: ".scroll-indicator",
         toggleActions: "play none resume reset",
-        start: "top 80%",
-        end: "bottom center",
+        start: "top 60%",
+        end: "bottom 40%",
         scrub: .5,
         markers: true
     },
-    yPercent: 150
+    yPercent: 300
 
 })
