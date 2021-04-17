@@ -67,7 +67,7 @@ body {
             z-index: 10;
 
             .hello-container {
-                
+
 
                 .hello {
                     font-family: $futura-bold;
@@ -84,7 +84,8 @@ body {
                     }
                 }
             }
-            .scroll-indicator{
+
+            .scroll-indicator {
                 height: 7vh;
                 width: 7vh;
                 border-bottom: 3px solid $lighter-color;
@@ -94,10 +95,16 @@ body {
                 top: 5vh;
             }
         }
+        .desk-img{
+            height: 100%;
+            background-image: url("../../assets/images/tom-desk.jpeg");
+            background-size: 100%;
+        }
 
-        .about-page{
+        .about-page {
             @include center-center;
             height: 100%;
+            background-color: $darker-color;
         }
     }
 }
@@ -105,7 +112,6 @@ body {
 //     #about-page {
 //         @include full-screen;
 //         @include center-center;
-//         background-color: $darker-color;
 //         position: relative;
 
 

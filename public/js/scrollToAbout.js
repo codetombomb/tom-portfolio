@@ -17,7 +17,6 @@ gsap.to(".scroll-indicator",{
         start: "top 60%",
         end: "bottom 40%",
         scrub: .5,
-        markers: true
     },
     yPercent: 300
 

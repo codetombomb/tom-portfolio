@@ -73,10 +73,15 @@ body {
         transform: rotate(45deg);
         position: relative;
         top: 5vh; }
+    body #main-content .desk-img {
+      height: 100%;
+      background-image: url("../../assets/images/tom-desk.jpeg");
+      background-size: 100%; }
     body #main-content .about-page {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100%; }
+      height: 100%;
+      background-color: #151516; }
 
 /*# sourceMappingURL=style.css.map */
