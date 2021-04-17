@@ -1,5 +1,3 @@
-console.log("scroll to about script here")
-
 gsap.to(".hello-container", {
     scrollTrigger: {
         trigger: ".hello-container",
