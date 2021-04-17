@@ -1,5 +1,3 @@
-console.log("running helloAnimation script");
-
 const helloPageTL = gsap.timeline();
 helloPageTL.from('.half-slide', {
     duration: .5,
@@ -13,7 +11,7 @@ helloPageTL.from('.half-slide', {
     ease: 'back'
 })
 .from(".scroll-indicator",{
-    delay: 1,
+    delay: .5,
     duration: .8,
     opacity: 0,
 })
