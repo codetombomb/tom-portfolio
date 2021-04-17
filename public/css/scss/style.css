@@ -10,9 +10,6 @@
 @font-face {
   font-family: Avenir-bold;
   src: url("../fonts/avenir_ff/AvenirLTStd-Black.otf"); }
-* {
-  border: 1px solid red; }
-
 body {
   margin: 0px;
   padding: 0px;
