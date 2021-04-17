@@ -1,13 +1,11 @@
-
-gsap.to(".half-slide",{
+gsap.to(".hello-container", {
     scrollTrigger: {
-        trigger: ".half-slide",
-        start: "bottom 95%",
-        end: "bottom center",
-        scrub: 1,
-        snap: 1 / 10,
-        markers: true
-},
-    xPercent: -100,
-
+        trigger: ".hello-container",
+        toggleActions: "play none resume reset",
+        start: "center 30%", //Start marker on the hello-container is at the center. Start marker on the VP is 30% from the top. 
+        scrub: true,
+    },
+    x: -1100,
+    rotation: 360,
+    duration: 1
 })
