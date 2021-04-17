@@ -61,8 +61,7 @@ body {
         margin: 0px;
         color: #c4ff00;
         font-size: 11rem;
-        line-height: 1em;
-        overflow: hidden; }
+        line-height: 1em; }
         body #main-content .main-container .hello-container .hello .hello-bang {
           color: #151516; }
       body #main-content .main-container .scroll-indicator {
@@ -73,15 +72,27 @@ body {
         transform: rotate(45deg);
         position: relative;
         top: 5vh; }
-    body #main-content .desk-img {
+    body #main-content .about-container {
       height: 100%;
-      background-image: url("../../assets/images/tom-desk.jpeg");
-      background-size: 100%; }
-    body #main-content .about-page {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      background-color: #151516; }
+      position: relative;
+      overflow: hidden; }
+      body #main-content .about-container .desk-img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url("../../assets/images/tom-desk.jpeg");
+        background-size: cover; }
+      body #main-content .about-container .about-page {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: #151516; }
 
 /*# sourceMappingURL=style.css.map */

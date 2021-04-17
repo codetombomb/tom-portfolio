@@ -19,5 +19,14 @@ gsap.to(".scroll-indicator",{
         scrub: .5,
     },
     yPercent: 300
+})
 
+gsap.from(".about-page", {
+    xPercent: 100,
+    scrollTrigger: {
+        trigger: ".about-container",
+        start: "top top",
+        scrub: true,
+        pin: true
+    }
 })
