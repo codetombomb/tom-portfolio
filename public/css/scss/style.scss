@@ -67,8 +67,7 @@ body {
             z-index: 10;
 
             .hello-container {
-
-
+                
                 .hello {
                     font-family: $futura-bold;
                     font-weight: bolder;
@@ -95,11 +94,11 @@ body {
                 top: 5vh;
             }
         }
+
         .about-container{
             height: 100%;
             position: relative;
             overflow: hidden;
-            
 
             .desk-img{
                 position: absolute;
@@ -115,47 +114,42 @@ body {
                 position: absolute;
                 top: 0px;
                 left: 0px;
-                @include center-center;
                 height: 100%;
                 width: 100%;
                 background-color: $darker-color;
+                font-family: $avenir;
+                font-size: 1.2em;
+                font-weight: 900;
+                
+                .about-me-wrapper{
+                    position: absolute;
+                    top: 40%;
+                    left: 25%;
+                    @include center-center;
+                    width: 25%;
+                    min-width: 20%;
+                    flex-direction: column;
+                    text-align: center;
+
+                    .my-name{
+                        color: $lighter-color;
+                    }
+
+                    .about-me{
+                        color: $vale-yellow;
+                    }
+                }
+            
+                .tom-img{
+                    position: absolute;
+                    bottom: 0px;
+                    right: 10%;
+                    height: 50vw;
+                    min-height: 300px;
+                    transform: scaleX(-1);
+                }
+
             }
         }
     }
 }
-
-//     #about-page {
-//         @include full-screen;
-//         @include center-center;
-//         position: relative;
-
-
-//         .about-desc-wrapper {
-//             min-width: 10vw;
-//             max-width: 20vw;
-
-
-//             .my-name-is {
-//                 font-family: $avenir-bold;
-//                 color: white;
-//             }
-
-//             .about-desc {
-//                 font-family: $avenir-bold;
-//                 color: $vale-yellow;
-//             }
-//         }
-
-//         .tom-img-wrapper {
-//             width: 40%;
-
-//             img {
-//                 position: absolute;
-//                 width: 30%;
-//                 transform: rotateY(180deg);
-//                 right: 6vw;
-//                 bottom: 0px;
-//             }
-//         }
-//     }
-// }

@@ -88,11 +88,33 @@ body {
         position: absolute;
         top: 0px;
         left: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 100%;
         width: 100%;
-        background-color: #151516; }
+        background-color: #151516;
+        font-family: Avenir, sans-serif;
+        font-size: 1.2em;
+        font-weight: 900; }
+        body #main-content .about-container .about-page .about-me-wrapper {
+          position: absolute;
+          top: 40%;
+          left: 25%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 25%;
+          min-width: 20%;
+          flex-direction: column;
+          text-align: center; }
+          body #main-content .about-container .about-page .about-me-wrapper .my-name {
+            color: #bcbdc2; }
+          body #main-content .about-container .about-page .about-me-wrapper .about-me {
+            color: #c4ff00; }
+        body #main-content .about-container .about-page .tom-img {
+          position: absolute;
+          bottom: 0px;
+          right: 10%;
+          height: 50vw;
+          min-height: 300px;
+          transform: scaleX(-1); }
 
 /*# sourceMappingURL=style.css.map */
