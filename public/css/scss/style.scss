@@ -154,14 +154,14 @@ body {
 
         .works-container{
             @include center-center;
-            justify-content: space-evenly;
             background-color: $lighter-color;
             height: 100%;
-
+            
             .works-desc-container{
                 @include center-center;
                 flex-direction: column;
                 width: 25%;
+                margin-right: 10%;
 
                 .works{
                     font-family: $futura-bold;
@@ -193,8 +193,30 @@ body {
                 background-color: $darker-color;
                 width: 90vh;
                 height: 90vh;
+                font-family: $avenir;
+                @include center-center;
+                flex-flow: row wrap;
 
-                
+                .step{
+                    @include center-center;
+                    flex-direction: column;
+                    width: 30%;
+                    margin: 5%;
+                    flex-grow: 1;
+
+                    h2{
+                        color: $lighter-color;
+                        font-weight: bold;
+                        margin: 10%;
+                    }
+    
+                    p{
+                        color: $vale-yellow;
+                        margin: 0px;
+                        font-size: .9em;
+                    }
+                }
+
             }
 
         }

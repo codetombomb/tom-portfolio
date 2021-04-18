@@ -120,7 +120,6 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      justify-content: space-evenly;
       background-color: #bcbdc2;
       height: 100%; }
       body #main-content .works-container .works-desc-container {
@@ -128,7 +127,8 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 25%; }
+        width: 25%;
+        margin-right: 10%; }
         body #main-content .works-container .works-desc-container .works {
           font-family: Futura-bold, sans-serif;
           color: #1D04EB;
@@ -150,6 +150,27 @@ body {
       body #main-content .works-container .steps-container {
         background-color: #151516;
         width: 90vh;
-        height: 90vh; }
+        height: 90vh;
+        font-family: Avenir, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap; }
+        body #main-content .works-container .steps-container .step {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 30%;
+          margin: 5%;
+          flex-grow: 1; }
+          body #main-content .works-container .steps-container .step h2 {
+            color: #bcbdc2;
+            font-weight: bold;
+            margin: 10%; }
+          body #main-content .works-container .steps-container .step p {
+            color: #c4ff00;
+            margin: 0px;
+            font-size: .9em; }
 
 /*# sourceMappingURL=style.css.map */
