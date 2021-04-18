@@ -92,7 +92,7 @@ body {
         width: 100%;
         background-color: #151516;
         font-family: Avenir, sans-serif;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 900; }
         body #main-content .about-container .about-page .about-me-wrapper {
           position: absolute;
@@ -116,5 +116,39 @@ body {
           height: 50vw;
           min-height: 300px;
           transform: scaleX(-1); }
+    body #main-content .works-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #bcbdc2;
+      height: 100%; }
+      body #main-content .works-container .works-desc-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 25%; }
+        body #main-content .works-container .works-desc-container .works {
+          font-family: Futura-bold, sans-serif;
+          color: #1D04EB;
+          font-size: 8em;
+          line-height: .8em;
+          margin: 0px; }
+          body #main-content .works-container .works-desc-container .works .works-period {
+            color: #c4ff00; }
+        body #main-content .works-container .works-desc-container .my-process {
+          margin: 0px;
+          font-family: Avenir, sans-serif;
+          color: #464649;
+          font-size: 2.5em; }
+        body #main-content .works-container .works-desc-container .my-process-desc {
+          margin: 0px;
+          max-width: 60%;
+          font-family: Avenir, sans-serif;
+          color: #464649; }
+      body #main-content .works-container .steps-container {
+        background-color: #151516;
+        width: 75vh;
+        height: 75vh; }
 
 /*# sourceMappingURL=style.css.map */

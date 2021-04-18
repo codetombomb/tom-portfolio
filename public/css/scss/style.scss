@@ -118,7 +118,7 @@ body {
                 width: 100%;
                 background-color: $darker-color;
                 font-family: $avenir;
-                font-size: 1.2em;
+                font-size: 1em;
                 font-weight: 900;
                 
                 .about-me-wrapper{
@@ -151,5 +151,54 @@ body {
 
             }
         }
+
+        .works-container{
+            @include center-center;
+            background-color: $lighter-color;
+            height: 100%;
+
+            .works-desc-container{
+                @include center-center;
+                flex-direction: column;
+                width: 25%;
+
+                .works{
+                    font-family: $futura-bold;
+                    color: $black-light;
+                    font-size: 8em;
+                    line-height: .8em;
+                    margin: 0px;
+    
+                    .works-period{
+                        color: $vale-yellow;
+                    }
+                }
+                .my-process{
+                    margin: 0px;
+                    font-family: $avenir;
+                    color: $dark-grey;
+                    font-size: 2.5em;
+                }
+
+                .my-process-desc{
+                    margin: 0px;
+                    max-width: 60%;
+                    font-family: $avenir;
+                    color: $dark-grey;
+                }
+            }
+
+            .steps-container{
+                background-color: $darker-color;
+                width: 75vh;
+                height: 75vh;
+
+
+
+            }
+
+        }
     }
 }
+
+
