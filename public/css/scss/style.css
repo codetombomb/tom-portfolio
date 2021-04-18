@@ -120,6 +120,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      justify-content: space-evenly;
       background-color: #bcbdc2;
       height: 100%; }
       body #main-content .works-container .works-desc-container {
@@ -148,7 +149,7 @@ body {
           color: #464649; }
       body #main-content .works-container .steps-container {
         background-color: #151516;
-        width: 75vh;
-        height: 75vh; }
+        width: 90vh;
+        height: 90vh; }
 
 /*# sourceMappingURL=style.css.map */

@@ -154,6 +154,7 @@ body {
 
         .works-container{
             @include center-center;
+            justify-content: space-evenly;
             background-color: $lighter-color;
             height: 100%;
 
@@ -190,11 +191,10 @@ body {
 
             .steps-container{
                 background-color: $darker-color;
-                width: 75vh;
-                height: 75vh;
+                width: 90vh;
+                height: 90vh;
 
-
-
+                
             }
 
         }
